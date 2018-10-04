@@ -1,0 +1,59 @@
+{
+	Comments
+	{
+		For the purposes of this program, all pitches that can be codified can be represented by the following 
+		notation [C - Natural *Major* (Zero Octave)] which includes the brackets. In saying "all pitches" what
+		is really meant is that there are no pitches within the (foreseeable future of this program) that cannot
+		fit within that description. What it DOES NOT mean is that all pitches that have been defined programmatically
+		can be described in that way, as the code is still under development. Note that there is no indication of
+		the range of the instrument that those pitches can be played on.
+		
+		This will become increasingly pertinent later on when variable names become less descriptive as music 
+		terminology becomes more context specific. The previous text within brackets (exactly as it is written) 
+		will be used to describe variable names through comments in code.
+	}
+	Misunderstood Variables
+	{
+		{
+			What is commented as a ROUGUE VAR in the code are variables that represent something that is currently 
+			misunderstood by the current reviewer and also undefined
+		}
+		{
+			What is commented as a VAGABOND VAR in the code are variables that represent something that is currently
+			defined, yet misunderstood by the current review 
+		}
+	}
+	{
+		What is commented as REVIEWED is code that has been gone through, commented, fixed, or otherwise understood 
+		as well enough understood for now (at least during this session)
+	}
+	Misunderstood Lines
+	{
+		CLARITY - the code works and can be understood after a significant amount of slow arugment by argument,  
+		method by method, reserved word by reserved word, or syntax "symbol" by syntax "symbol" but is lacking in the
+		basic meta-requirement of developing that code is easily and (reasonably quickly) read
+	}
+	Future Features
+	{
+		System.exit(#)
+		{
+			0 - Invalid Accidental
+		}
+	}
+	Codified Theory Definitions
+	ID's
+	{
+		{
+			Pitch #id is equal to some number between a bound minimum and an unbound maximum. The range between those two 
+			is equal to the unbound maximum minus zero. Pitch #id = 0 always represents the instruments lowest playable note
+			(under typical circumstances). The unbound maximum is unbound because it is not within the foreseeable future that
+			any instruments range will need to be defined. To clarify, whenever the issue of range comes up, for the foreseeable
+			future, it will be inconsiquential, as there is an assumption that until significant development, only one range
+			will be considered.
+		}
+		{
+			Octave-level #id will always be a number from 0-11. It is the number of possible Pitch #id's withina given octave
+			(of which there will only ever be twelve notes with consideration given to accidentals
+		}
+	}
+}
